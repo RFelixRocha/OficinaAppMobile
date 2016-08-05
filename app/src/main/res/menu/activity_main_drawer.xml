@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item android:title="Tipo de visão do mapa">
+        <menu>
+        <item
+            android:id="@+id/nav_transito"
+            android:icon="@drawable/ic_cast_light"
+            android:title="Normal" />
+
+        <item
+            android:id="@+id/nav_satelite"
+            android:icon="@drawable/ic_distance"
+            android:title="Satélite" />
+
+        </menu>
+        </item>
+
+        <item android:title="Configurações">
+        <menu>
+        <item
+            android:id="@+id/nav_oficina"
+            android:icon="@drawable/common_plus_signin_btn_icon_dark_pressed"
+            android:title="Nova Oficina" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Configuraões" />
+        </menu>
+        </item>
+    </group>
+
+    <item android:title="Comunicação">
+        <menu>
+
+
+            <item
+                android:id="@+id/nav_ajuda"
+                android:icon="@drawable/bubble_mask"
+                android:title="Ajuda" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Enviar Feedback" />
+            <item
+                android:id="@+id/nav_sair"
+                android:icon="@drawable/common_full_open_on_phone"
+                android:title="Sair" />
+        </menu>
+
+    </item>
+
+</menu>
